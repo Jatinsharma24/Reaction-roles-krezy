@@ -67,7 +67,7 @@ client.on('message', async message => {
 
     let prefix = prefixes[message.guild.id];
 
-    if (message.mentions.has(client.user)) { return message.channel.send(`My prefix in this server is: \`${prefix}\``) }
+    if (message.content == message.mentions.has(client.user)) { return message.channel.send(`My prefix in this server is: \`${prefix}\``) }
 
     if (!message.content.startsWith(prefix)) return;
 
