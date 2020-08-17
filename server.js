@@ -15,7 +15,12 @@ app.get("/", (request, response) => {
 const listener = app.listen(process.env.PORT, () => {
   console.log("Your app is listening on port " + listener.address().port);
 });
+  
 }
+setInterval(() => {
+    require('node-fetch')("https://reactionroles-xmercy.glitch.me");
+    console.log(`Keeping the bot online.`);
+}, 5 * 60 * 1000);
 
 const { Client, MessageEmbed } = require('discord.js');
 
@@ -317,7 +322,3 @@ client.on('messageReactionRemove', async (reaction, user) => {
 
 })
 
-setInterval(() => {
-    require('node-fetch')("https://reactionroles-xmercy.glitch.me");
-    console.log(`Keeping the bot online.`);
-}, 5 * 60 * 1000);
