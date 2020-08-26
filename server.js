@@ -111,7 +111,7 @@ client.on('message', async message => {
                 .setTitle('Help Menu')
                 .setColor('#19ce0e')
                 .setThumbnail(client.user.displayAvatarURL())
-                .setDescription('**[Donate me](https://paypal.me/NoIdeaWhatName) | [Invite me](https://discord.com/api/oauth2/authorize?client_id=744470857757491221&permissions=268528720&scope=bot)**\nCreate a reaction role with the bot!\nThis bot is made by xMercy#0001 with their ❤️!')
+                .setDescription('**[Donate me](none) | [Invite me](none)**\nCreate a reaction role with the bot!\nThis bot is made by Laref#0000 with their ❤️!')
                 .addField(
                     `Basic Commands`,
                     `**r.help - Help Menu**
