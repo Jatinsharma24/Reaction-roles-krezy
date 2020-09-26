@@ -111,7 +111,7 @@ client.on('message', async message => {
                 .setTitle('Help Menu')
                 .setColor('#19ce0e')
                 .setThumbnail(client.user.displayAvatarURL())
-                .setDescription('**[Donate me](none) | [Invite me](none)**\nCreate a reaction role with the bot!\nThis bot is made by Laref#0000 with their ❤️!')
+                .setDescription('Create a reaction role with the bot!\nThis bot is made by YashrajOPDEV#4499 with their ❤️!')
                 .addField(
                     `Basic Commands`,
                     `**r.help - Help Menu**
