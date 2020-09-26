@@ -18,7 +18,7 @@ const listener = app.listen(process.env.PORT, () => {
   
 }
 setInterval(() => {
-    require('node-fetch')("https://reactionroles-xmercy.glitch.me");
+    require('node-fetch')("https://yashraj-gaming.glitch.me");
     console.log(`Keeping the bot online.`);
 }, 5 * 60 * 1000);
 
