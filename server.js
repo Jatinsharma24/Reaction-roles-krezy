@@ -154,19 +154,19 @@ client.on("message", async message => {
         .setColor("#19ce0e")
         .setThumbnail(client.user.displayAvatarURL())
         .setDescription(
-          "Create a reaction role with the bot!\nThis bot is made by YashrajOPDEV#4499 with their ❤️!"
+          "Create a reaction role with the bot!\nThis bot is made by Cool dude 69#5158 with their ❤️!"
         )
         .addField(
           `Basic Commands`,
           `**r.help - Help Menu**
 
-                    **${prefix}prefix - get the current prefix of this server.**
+           ★**${prefix}prefix - get the current prefix of this server.**
 
-                    **${prefix}setprefix - set the current prefix of this server.**
+           ★**${prefix}setprefix - set the current prefix of this server.**
 
-                    **${prefix}create [channel] [messageID] [emoji] [role] - create a reaction role.**
+           ★**${prefix}create [channel] [messageID] [emoji] [role] - create a reaction role.**
 
-                    **${prefix}crembed [channel] [emoji] [role] [embed Title | embed Description] - create a embed reaction role.**`
+           ★**${prefix}crembed [channel] [emoji] [role] [embed Title | embed Description] - create a embed reaction role.**`
         );
 
       message.channel.send(embedHelp);
