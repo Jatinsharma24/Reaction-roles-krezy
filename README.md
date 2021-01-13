@@ -1,4 +1,4 @@
-# Made By [Yashraj Gaming](https://m.youtube.com/channel/UCq6l5VljzI5mb7jdCeWcmew)
+# Made By Cool dude 69
 
 Youtube link:- [https://m.youtube.com/channel/UCq6l5VljzI5mb7jdCeWcmew](https://m.youtube.com/channel/UCq6l5VljzI5mb7jdCeWcmew)
 Support Server:- [https://discord.gg/7cXrGeZ](https://discord.gg/7cXrGeZ)
